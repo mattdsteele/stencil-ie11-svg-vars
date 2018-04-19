@@ -28,8 +28,7 @@ declare global {
 
   namespace StencilComponents {
     interface MyComponent {
-      'first': string;
-      'last': string;
+
     }
   }
 
@@ -52,8 +51,7 @@ declare global {
   }
   namespace JSXElements {
     export interface MyComponentAttributes extends HTMLAttributes {
-      'first'?: string;
-      'last'?: string;
+
     }
   }
 }

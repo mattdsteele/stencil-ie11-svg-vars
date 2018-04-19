@@ -1,4 +1,4 @@
-import { Component, Prop } from '@stencil/core';
+import { Component } from '@stencil/core';
 
 @Component({
   tag: 'my-component',
@@ -6,15 +6,7 @@ import { Component, Prop } from '@stencil/core';
   shadow: true
 })
 export class MyComponent {
-
-  @Prop() first: string;
-  @Prop() last: string;
-
   render() {
-    return (
-      <div>
-        Hello, World! I'm {this.first} {this.last}
-      </div>
-    );
+    return <div class="tiger" />;
   }
 }
